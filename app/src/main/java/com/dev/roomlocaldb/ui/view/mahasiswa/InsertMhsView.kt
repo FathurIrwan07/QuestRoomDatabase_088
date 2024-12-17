@@ -1,6 +1,5 @@
 package com.dev.roomlocaldb.ui.view.mahasiswa
 
-import android.text.Editable.Factory
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -73,7 +72,8 @@ fun InsertMhsView (
             TopAppBar(
                 onBack = onBack,
                 showBackButton = true,
-                judul = "Tambah Mahasiswa"
+                judul = "Tambah Mahasiswa",
+                modifier = modifier
 
             )
             //isi body
